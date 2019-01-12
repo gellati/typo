@@ -33,7 +33,8 @@ World(WithinHelpers)
 
 Given /^the blog is set up$/ do
   Blog.default.update_attributes!({:blog_name => 'Teh Blag',
-                                   :base_url => 'http://localhost:3000'});
+                                   :base_url => 'https://hw-refactoring-legacy-code-bug-fix-gellati.c9users.io'});
+#                                   :base_url => 'http://localhost:3000'});
   Blog.default.save!
   User.create!({:login => 'admin',
                 :password => 'aaaaaaaa',
