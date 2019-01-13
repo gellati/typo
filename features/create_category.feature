@@ -1,6 +1,3 @@
-# run test with
-# bundle exec rake cucumber
-
 Feature: Create category
   As an administrator
   In order to organise blog posts
